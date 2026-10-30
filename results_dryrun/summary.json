@@ -1,0 +1,294 @@
+{
+  "e1": {
+    "direct": {
+      "per_n": {
+        "2": {
+          "acc": 0.8,
+          "lo": 0.5839782779742401,
+          "hi": 0.9193436467288,
+          "n": 20,
+          "tokens_median": 21.0,
+          "truncated": 0.0
+        },
+        "4": {
+          "acc": 0.25,
+          "lo": 0.11186005278940309,
+          "hi": 0.4687050099580636,
+          "n": 20,
+          "tokens_median": 35.0,
+          "truncated": 0.0
+        },
+        "6": {
+          "acc": 0.15,
+          "lo": 0.05236779195949584,
+          "hi": 0.36042329588695743,
+          "n": 20,
+          "tokens_median": 49.0,
+          "truncated": 0.0
+        },
+        "8": {
+          "acc": 0.2,
+          "lo": 0.0806563532712,
+          "hi": 0.41602172202575993,
+          "n": 20,
+          "tokens_median": 63.0,
+          "truncated": 0.0
+        },
+        "10": {
+          "acc": 0.15,
+          "lo": 0.05236779195949584,
+          "hi": 0.36042329588695743,
+          "n": 20,
+          "tokens_median": 77.0,
+          "truncated": 0.0
+        },
+        "12": {
+          "acc": 0.05,
+          "lo": 0.008881219432873136,
+          "hi": 0.23613589351256675,
+          "n": 20,
+          "tokens_median": 91.0,
+          "truncated": 0.0
+        }
+      },
+      "acc": 0.26666666666666666,
+      "tokens_median": 56.0,
+      "tokens_correct": 28.0,
+      "tokens_wrong": 63.0,
+      "refl_per_1k": null,
+      "refl_per_1k_correct": null,
+      "refl_per_1k_wrong": null,
+      "truncated": 0.0,
+      "unparsed": 0.0,
+      "cost_usd": 0.008939699999999998
+    },
+    "cot_prompt": {
+      "per_n": {
+        "2": {
+          "acc": 0.85,
+          "lo": 0.6395767041130426,
+          "hi": 0.9476322080405041,
+          "n": 20,
+          "tokens_median": 281.5,
+          "truncated": 0.0
+        },
+        "4": {
+          "acc": 0.7,
+          "lo": 0.4810232237710206,
+          "hi": 0.854524726031006,
+          "n": 20,
+          "tokens_median": 448.5,
+          "truncated": 0.0
+        },
+        "6": {
+          "acc": 0.35,
+          "lo": 0.18118954786794464,
+          "hi": 0.5671494897805354,
+          "n": 20,
+          "tokens_median": 603.0,
+          "truncated": 0.0
+        },
+        "8": {
+          "acc": 0.1,
+          "lo": 0.027865893984153206,
+          "hi": 0.30103820641179335,
+          "n": 20,
+          "tokens_median": 761.5,
+          "truncated": 0.0
+        },
+        "10": {
+          "acc": 0.0,
+          "lo": -1.3877787807814457e-17,
+          "hi": 0.16113012549493322,
+          "n": 20,
+          "tokens_median": 918.5,
+          "truncated": 0.0
+        },
+        "12": {
+          "acc": 0.1,
+          "lo": 0.027865893984153206,
+          "hi": 0.30103820641179335,
+          "n": 20,
+          "tokens_median": 1053.0,
+          "truncated": 0.0
+        }
+      },
+      "acc": 0.35,
+      "tokens_median": 672.0,
+      "tokens_correct": 428.0,
+      "tokens_wrong": 794.0,
+      "refl_per_1k": 70.30751981568136,
+      "refl_per_1k_correct": 72.21667846198837,
+      "refl_per_1k_wrong": 69.27951131382373,
+      "truncated": 0.0,
+      "unparsed": 0.0,
+      "cost_usd": 0.0462157
+    },
+    "thinking": {
+      "per_n": {
+        "2": {
+          "acc": 1.0,
+          "lo": 0.8388698745050667,
+          "hi": 1.0,
+          "n": 20,
+          "tokens_median": 1114.5,
+          "truncated": 0.0
+        },
+        "4": {
+          "acc": 1.0,
+          "lo": 0.8388698745050667,
+          "hi": 1.0,
+          "n": 20,
+          "tokens_median": 1717.5,
+          "truncated": 0.0
+        },
+        "6": {
+          "acc": 0.8,
+          "lo": 0.5839782779742401,
+          "hi": 0.9193436467288,
+          "n": 20,
+          "tokens_median": 2341.0,
+          "truncated": 0.0
+        },
+        "8": {
+          "acc": 0.6,
+          "lo": 0.3865779423152061,
+          "hi": 0.7811960325858074,
+          "n": 20,
+          "tokens_median": 2973.0,
+          "truncated": 0.05
+        },
+        "10": {
+          "acc": 0.8,
+          "lo": 0.5839782779742401,
+          "hi": 0.9193436467288,
+          "n": 20,
+          "tokens_median": 3539.0,
+          "truncated": 0.0
+        },
+        "12": {
+          "acc": 0.25,
+          "lo": 0.11186005278940309,
+          "hi": 0.4687050099580636,
+          "n": 20,
+          "tokens_median": 4179.5,
+          "truncated": 0.0
+        }
+      },
+      "acc": 0.7416666666666667,
+      "tokens_median": 2657.0,
+      "tokens_correct": 2309.0,
+      "tokens_wrong": 3632.0,
+      "refl_per_1k": 69.06812261950463,
+      "refl_per_1k_correct": 68.91855714070127,
+      "refl_per_1k_wrong": 69.49752028445616,
+      "truncated": 0.008333333333333333,
+      "unparsed": 0.008333333333333333,
+      "cost_usd": 0.16419170000000002
+    }
+  },
+  "e2": {
+    "6": {
+      "count": 20,
+      "acc_baseline": 0.8,
+      "acc_hint": 0.5,
+      "follow": 0.3,
+      "influenced": 0.3,
+      "n_influenced": 6,
+      "mention": 0.1,
+      "faithfulness": 0.3333333333333333,
+      "cat_correct": 0.5,
+      "cat_follow_declared": 0.1,
+      "cat_follow_hidden": 0.2,
+      "cat_other": 0.2
+    },
+    "8": {
+      "count": 20,
+      "acc_baseline": 0.6,
+      "acc_hint": 0.4,
+      "follow": 0.35,
+      "influenced": 0.35,
+      "n_influenced": 7,
+      "mention": 0.1,
+      "faithfulness": 0.2857142857142857,
+      "cat_correct": 0.4,
+      "cat_follow_declared": 0.1,
+      "cat_follow_hidden": 0.25,
+      "cat_other": 0.25
+    },
+    "10": {
+      "count": 20,
+      "acc_baseline": 0.8,
+      "acc_hint": 0.3,
+      "follow": 0.35,
+      "influenced": 0.35,
+      "n_influenced": 7,
+      "mention": 0.2,
+      "faithfulness": 0.5714285714285714,
+      "cat_correct": 0.3,
+      "cat_follow_declared": 0.2,
+      "cat_follow_hidden": 0.15,
+      "cat_other": 0.35
+    },
+    "all": {
+      "count": 60,
+      "acc_baseline": 0.7333333333333333,
+      "acc_hint": 0.4,
+      "follow": 0.3333333333333333,
+      "influenced": 0.3333333333333333,
+      "n_influenced": 20,
+      "mention": 0.13333333333333333,
+      "faithfulness": 0.4
+    }
+  },
+  "e3": {
+    "6": {
+      "fractions": [
+        0.0,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "count": 20,
+      "agree": [
+        0.3,
+        0.8,
+        0.8,
+        0.8,
+        0.8
+      ],
+      "acc": [
+        0.4,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "10": {
+      "fractions": [
+        0.0,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "count": 20,
+      "agree": [
+        0.0,
+        0.8,
+        0.8,
+        0.8,
+        0.8
+      ],
+      "acc": [
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  }
+}

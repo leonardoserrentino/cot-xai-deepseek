@@ -1,0 +1,14 @@
+{
+  "model": "mock",
+  "base_url": "https://api.deepseek.com",
+  "levels": [
+    2,
+    4,
+    6,
+    8,
+    10,
+    12
+  ],
+  "per_level": 20,
+  "dry_run": true
+}

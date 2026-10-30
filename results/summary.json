@@ -1,0 +1,294 @@
+{
+  "e1": {
+    "direct": {
+      "per_n": {
+        "2": {
+          "acc": 0.85,
+          "lo": 0.6395767041130426,
+          "hi": 0.9476322080405041,
+          "n": 20,
+          "tokens_median": 21.0,
+          "truncated": 0.0
+        },
+        "4": {
+          "acc": 0.2,
+          "lo": 0.0806563532712,
+          "hi": 0.41602172202575993,
+          "n": 20,
+          "tokens_median": 38.5,
+          "truncated": 0.0
+        },
+        "6": {
+          "acc": 0.0,
+          "lo": -1.3877787807814457e-17,
+          "hi": 0.16113012549493322,
+          "n": 20,
+          "tokens_median": 56.0,
+          "truncated": 0.0
+        },
+        "8": {
+          "acc": 0.0,
+          "lo": -1.3877787807814457e-17,
+          "hi": 0.16113012549493322,
+          "n": 20,
+          "tokens_median": 74.0,
+          "truncated": 0.0
+        },
+        "10": {
+          "acc": 0.0,
+          "lo": -1.3877787807814457e-17,
+          "hi": 0.16113012549493322,
+          "n": 20,
+          "tokens_median": 91.5,
+          "truncated": 0.0
+        },
+        "12": {
+          "acc": 0.0,
+          "lo": -1.3877787807814457e-17,
+          "hi": 0.16113012549493322,
+          "n": 20,
+          "tokens_median": 109.0,
+          "truncated": 0.0
+        }
+      },
+      "acc": 0.175,
+      "tokens_median": 64.5,
+      "tokens_correct": 21.0,
+      "tokens_wrong": 74.0,
+      "refl_per_1k": null,
+      "refl_per_1k_correct": null,
+      "refl_per_1k_wrong": null,
+      "truncated": 0.0,
+      "unparsed": 0.0,
+      "cost_usd": 0.011697
+    },
+    "cot_prompt": {
+      "per_n": {
+        "2": {
+          "acc": 1.0,
+          "lo": 0.8388698745050667,
+          "hi": 1.0,
+          "n": 20,
+          "tokens_median": 368.5,
+          "truncated": 0.0
+        },
+        "4": {
+          "acc": 1.0,
+          "lo": 0.8388698745050667,
+          "hi": 1.0,
+          "n": 20,
+          "tokens_median": 873.0,
+          "truncated": 0.0
+        },
+        "6": {
+          "acc": 1.0,
+          "lo": 0.8388698745050667,
+          "hi": 1.0,
+          "n": 20,
+          "tokens_median": 1295.5,
+          "truncated": 0.0
+        },
+        "8": {
+          "acc": 0.95,
+          "lo": 0.7638641064874331,
+          "hi": 0.9911187805671268,
+          "n": 20,
+          "tokens_median": 1609.5,
+          "truncated": 0.0
+        },
+        "10": {
+          "acc": 1.0,
+          "lo": 0.8388698745050667,
+          "hi": 1.0,
+          "n": 20,
+          "tokens_median": 1425.0,
+          "truncated": 0.0
+        },
+        "12": {
+          "acc": 0.85,
+          "lo": 0.6395767041130426,
+          "hi": 0.9476322080405041,
+          "n": 20,
+          "tokens_median": 2265.5,
+          "truncated": 0.05
+        }
+      },
+      "acc": 0.9666666666666667,
+      "tokens_median": 1361.5,
+      "tokens_correct": 1350.5,
+      "tokens_wrong": 4889.0,
+      "refl_per_1k": 3.0450402774155045,
+      "refl_per_1k_correct": 2.7289996164152694,
+      "refl_per_1k_wrong": 12.21021944642234,
+      "truncated": 0.008333333333333333,
+      "unparsed": 0.0,
+      "cost_usd": 0.0989445
+    },
+    "thinking": {
+      "per_n": {
+        "2": {
+          "acc": 1.0,
+          "lo": 0.8388698745050667,
+          "hi": 1.0,
+          "n": 20,
+          "tokens_median": 309.0,
+          "truncated": 0.0
+        },
+        "4": {
+          "acc": 1.0,
+          "lo": 0.8388698745050667,
+          "hi": 1.0,
+          "n": 20,
+          "tokens_median": 909.0,
+          "truncated": 0.0
+        },
+        "6": {
+          "acc": 1.0,
+          "lo": 0.8388698745050667,
+          "hi": 1.0,
+          "n": 20,
+          "tokens_median": 1693.0,
+          "truncated": 0.0
+        },
+        "8": {
+          "acc": 1.0,
+          "lo": 0.8388698745050667,
+          "hi": 1.0,
+          "n": 20,
+          "tokens_median": 1821.5,
+          "truncated": 0.0
+        },
+        "10": {
+          "acc": 1.0,
+          "lo": 0.8388698745050667,
+          "hi": 1.0,
+          "n": 20,
+          "tokens_median": 1945.5,
+          "truncated": 0.0
+        },
+        "12": {
+          "acc": 1.0,
+          "lo": 0.8388698745050667,
+          "hi": 1.0,
+          "n": 20,
+          "tokens_median": 3379.5,
+          "truncated": 0.0
+        }
+      },
+      "acc": 1.0,
+      "tokens_median": 1701.0,
+      "tokens_correct": 1701.0,
+      "tokens_wrong": null,
+      "refl_per_1k": 4.964049183002051,
+      "refl_per_1k_correct": 4.964049183002051,
+      "refl_per_1k_wrong": null,
+      "truncated": 0.0,
+      "unparsed": 0.0,
+      "cost_usd": 0.1249725
+    }
+  },
+  "e2": {
+    "6": {
+      "count": 20,
+      "acc_baseline": 1.0,
+      "acc_hint": 1.0,
+      "follow": 0.0,
+      "influenced": 0.0,
+      "n_influenced": 0,
+      "mention": 1.0,
+      "faithfulness": null,
+      "cat_correct": 1.0,
+      "cat_follow_declared": 0.0,
+      "cat_follow_hidden": 0.0,
+      "cat_other": 0.0
+    },
+    "8": {
+      "count": 20,
+      "acc_baseline": 1.0,
+      "acc_hint": 0.95,
+      "follow": 0.05,
+      "influenced": 0.05,
+      "n_influenced": 1,
+      "mention": 1.0,
+      "faithfulness": 1.0,
+      "cat_correct": 0.95,
+      "cat_follow_declared": 0.05,
+      "cat_follow_hidden": 0.0,
+      "cat_other": 0.0
+    },
+    "10": {
+      "count": 20,
+      "acc_baseline": 1.0,
+      "acc_hint": 1.0,
+      "follow": 0.0,
+      "influenced": 0.0,
+      "n_influenced": 0,
+      "mention": 1.0,
+      "faithfulness": null,
+      "cat_correct": 1.0,
+      "cat_follow_declared": 0.0,
+      "cat_follow_hidden": 0.0,
+      "cat_other": 0.0
+    },
+    "all": {
+      "count": 60,
+      "acc_baseline": 1.0,
+      "acc_hint": 0.9833333333333333,
+      "follow": 0.016666666666666666,
+      "influenced": 0.016666666666666666,
+      "n_influenced": 1,
+      "mention": 1.0,
+      "faithfulness": 1.0
+    }
+  },
+  "e3": {
+    "6": {
+      "fractions": [
+        0.0,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "count": 20,
+      "agree": [
+        0.0,
+        0.15,
+        0.65,
+        1.0,
+        1.0
+      ],
+      "acc": [
+        0.0,
+        0.15,
+        0.65,
+        1.0,
+        1.0
+      ]
+    },
+    "10": {
+      "fractions": [
+        0.0,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "count": 20,
+      "agree": [
+        0.0,
+        0.0,
+        0.3,
+        0.8,
+        1.0
+      ],
+      "acc": [
+        0.0,
+        0.0,
+        0.3,
+        0.8,
+        1.0
+      ]
+    }
+  }
+}
